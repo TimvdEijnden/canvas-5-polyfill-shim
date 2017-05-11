@@ -1,26 +1,21 @@
 # canvas-5-polyfill-shim
 
-This README outlines the details of collaborating on this Ember addon.
+[![NPM][npm-img]][npm-url] ![Ember][ember-img]
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd canvas-5-polyfill-shim`
-* `npm install`
+```bash
+ember install canvas-5-polyfill-shim
+```
 
-## Running
+## Usage
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+```js
+import canvas5polyfill from 'canvas-5-polyfill';
+```
 
-## Running Tests
+To learn more about `canvas-5-polyfill` and how to use it visit the [canvas-5-polyfill](https://github.com/google/canvas-5-polyfill) Github page.
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+[ember-img]: https://img.shields.io/badge/ember-1.13.13+-green.svg "Ember 2.13.0+"
+[npm-img]: https://img.shields.io/npm/v/canvas-5-polyfill-shim.svg "NPM Version"
+[npm-url]: https://www.npmjs.com/package/canvas-5-polyfill-shim
