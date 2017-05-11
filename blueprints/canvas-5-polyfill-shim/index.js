@@ -1,9 +1,9 @@
 /* eslint-env node */
 module.exports = {
  afterInstall: function () {
-    return this.addPackagesToProject([
+    return this.addAddonToProject(
       { name: 'canvas-5-polyfill', target: '0.1.3' }
-    ])
+    )
   },
 
   normalizeEntityName: function () {
