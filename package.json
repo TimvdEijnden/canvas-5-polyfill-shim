@@ -1,19 +1,19 @@
 {
   "name": "canvas-5-polyfill-shim",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "canvas-5-polyfill for Ember apps",
   "keywords": [
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "Tim van den Eijnden (https://github.com/timvdeijnden)",
+  "author": "Gynzy (https://github.com/gynzy)",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/timvdeijnden/canvas-5-polyfill-shim.git"
+    "url": "https://github.com/gynzy/canvas-5-polyfill-shim.git"
   },
   "scripts": {
     "build": "ember build",
